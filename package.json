@@ -1,0 +1,27 @@
+{
+  "name": "prez",
+  "version": "0.0.0",
+  "description": "A slidedeck that documents the making of a slide deck.  The basic idea is an internal dsl based on html, implemented  with css and angularjs.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stephanebisson/prez.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "Stephane Bisson",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "466a80d5ed07a9be8f52a081c99237d60c877406",
+  "dependencies": {
+    "jake": "latest",
+    "less": "1.3.3"
+  }
+}
