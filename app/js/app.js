@@ -44,6 +44,7 @@ angular.module('prez', [])
         return {
             restrict: 'E',
             link: function ($scope, $element) {
+                $element.hide();
                 deck.add($element);
             }
         };
