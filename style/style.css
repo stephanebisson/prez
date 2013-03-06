@@ -1,0 +1,24 @@
+body {
+  background: black;
+  margin: 0px;
+  padding: 0px;
+}
+body deck slide {
+  background: white;
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 20px;
+  display: block;
+}
+body deck slide h1,
+body deck slide h2,
+body deck slide h3,
+body deck slide h4,
+body deck slide h5,
+body deck slide h6,
+body deck slide p {
+  text-align: center;
+}
