@@ -37,6 +37,9 @@ angular.module('prez', [])
             },
             previous: function () {
                 move(p.movePrevious);
+            },
+            count: function() {
+                return slides.length;
             }
         };
     })
@@ -46,6 +49,9 @@ angular.module('prez', [])
             link: function ($scope, $element) {
                 $element.hide();
                 deck.add($element);
+                if (deck.count() === 1) {
+                    deck.next();
+                }
             }
         };
     })
